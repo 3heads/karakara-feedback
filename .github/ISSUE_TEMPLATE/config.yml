@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Assistenza privata / Private support
+    url: mailto:support@karakara.dev
+    about: Licenza, acquisto, account o dati personali — scrivi a support@karakara.dev / License, purchase, account or personal data — email support@karakara.dev
+  - name: Sito / Website
+    url: https://karakara.dev
+    about: Download, novità e documentazione / Downloads, news and docs

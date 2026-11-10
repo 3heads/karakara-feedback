@@ -1,0 +1,21 @@
+name: Richiesta / Request
+description: Una funzione nuova o un miglioramento / A new feature or an improvement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Questa segnalazione è pubblica.** Non inserire email, telefono, chiavi di licenza o altri dati personali.
+        *This issue is public. Do not include emails, phone numbers, license keys or other personal data.*
+  - type: textarea
+    id: need
+    attributes:
+      label: Di cosa hai bisogno / What you need
+      description: Il problema che vuoi risolvere, in una situazione reale (prova, serata…). / The problem you want to solve, in a real situation (rehearsal, gig…).
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Come lo immagini / How you picture it
+      description: Facoltativo. Anche uno schizzo o uno screenshot di un altro programma. / Optional. A sketch or a screenshot of another app is fine.

@@ -1,0 +1,53 @@
+name: Bug
+description: Qualcosa non funziona come dovrebbe / Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Questa segnalazione è pubblica.** Non inserire email, telefono, chiavi di licenza o altri dati personali.
+        *This issue is public. Do not include emails, phone numbers, license keys or other personal data.*
+  - type: textarea
+    id: what
+    attributes:
+      label: Cosa succede / What happens
+      description: Cosa hai visto, e cosa ti aspettavi invece. / What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Come riprodurlo / Steps to reproduce
+      placeholder: |
+        1. Apri…
+        2. Premi…
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versione di Karakara / Karakara version
+      description: Impostazioni → Informazioni / Settings → About
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Sistema / System
+      options:
+        - macOS
+        - Windows
+        - Altro / Other
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Dispositivi MIDI o audio coinvolti / MIDI or audio devices involved
+      description: Interfaccia, tastiera, pedaliera, mixer… se c'entrano. / Interface, keyboard, pedalboard, mixer… if relevant.
+  - type: textarea
+    id: files
+    attributes:
+      label: Diagnostica, video, screenshot / Diagnostics, video, screenshots
+      description: Trascina qui il file di Aiuto → Esporta diagnostica… / Drop the file from Help → Export diagnostics… here.
